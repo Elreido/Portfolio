@@ -7,9 +7,42 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #212529; /* Dark background for better contrast */
+    color: #f8f9fa; /* Light text color */
 }
-img{
+header {
+    background-color: #2a2e33!important;
+}
+header *{
+    color: white!important;;
+}
+
+img {
     max-width: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.project, .experience, .education, #about p, .contact{
+    background-color: #343a40; /* Darker background for sections */
+    padding: 15px;
+    border-radius: 5px;
+}
+.list-group {
+    padding:10px;
+    background-color: #343a40!important; /* Darker background for list items */
+}
+.contact {
+    display:flex;
+}
+.contact > *{
+    text-align: center;
+    width:100%;
+}
+.list-group-item {
+    background-color: #343a40!important; /* Darker background for list items */
+    color: #f8f9fa!important; /* Light text color */
+    border: none!important;
 }
