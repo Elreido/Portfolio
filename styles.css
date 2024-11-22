@@ -46,3 +46,10 @@ h2 {
     color: #f8f9fa!important; /* Light text color */
     border: none!important;
 }
+
+img{
+    width:100%!important;
+    max-width: 800px;
+    margin:auto;
+    display:block;
+}
